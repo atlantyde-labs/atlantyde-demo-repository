@@ -14,9 +14,6 @@ site_dir: site
 theme:
   name: material
   language: es
-  palette:
-    primary: teal
-    accent: amber
   features:
     - navigation.expand
     - navigation.instant
@@ -69,6 +66,17 @@ nav:
   - 📜 Licencia: docs/legal/licencia.md
   - 🌐 Contacto: docs/about/contacto.md
 
+plugins:
+  - search
+  - awesome-pages
+  - macros
+  - include-markdown
+  - redirects
+  - git-revision-date-localized:
+      type: timeago
+      fallback_to_build_date: true
+      enable_creation_date: true
+
 markdown_extensions:
   - admonition
   - footnotes
@@ -103,15 +111,6 @@ extra_css:
   - assets/css/extra.css
   - assets/styles/custom.css
 
-
-
-plugins:
-  - search
-  - git-revision-date-localized:
-      fallback_to_build_date: true
-  - minify:
-      minify_html: true
-  - awesome-pages
 
 extra_javascript:
   - assets/js/custom.js
