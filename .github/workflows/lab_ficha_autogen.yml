@@ -27,7 +27,7 @@ jobs:
 
       - name: Ejecutar generador de fichas
         run: |
-          pip install -r **/requirements.txt || true
+          pip install -r requirements.txt || true
           python scripts/generate_lab_ficha.py
 
       - name: Commit de ficha generada
