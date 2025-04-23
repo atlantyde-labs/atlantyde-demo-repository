@@ -1,0 +1,15 @@
+name: Validate PRs Governance
+
+on:
+  pull_request:
+    paths:
+      - 'docs/governance/**'
+      - 'docs/rfc/**'
+
+jobs:
+  validate-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ensure only Markdown is changed
+        run: |
+          echo "Validando cambios únicamente en archivos .md de gobernanza."

@@ -1,0 +1,64 @@
+🎬 Guión Narrativo para Video "Cómo Usar el Kit Educativo ATLANTYDE LMS"
+
+⏱ Duración: 90 segundos  
+🎶 Estilo: Claro, empático, institucional, música suave  
+📱 Formato: Video vertical (Canva, YouTube Shorts, RRSS educativas)
+
+---
+Escena 1: Intro Visual (0:00 - 0:08)
+
+Logo ATLANTYDE animado, suave transición, colores corporativos
+
+Narrador (voz cálida y confiable):
+"Tecnología humana para comunidades resilientes."
+
+---
+Escena 2: ¿Qué es este kit educativo? (0:09 - 0:25)
+
+Iconos dinámicos de SCORM, xAPI, Moodle. Visualización de estudiantes interactuando con contenido digital.
+
+Narrador:
+"¿Tienes un campus virtual y quieres enseñar cómo gestionar proyectos éticos y colaborativos? Este kit SCORM y xAPI de ATLANTYDE es justo lo que necesitas."
+
+---
+Escena 3: ¿Qué incluye el kit? (0:26 - 0:40)
+
+Imágenes atractivas mostrando claramente:
+- ATLANTYDE_SCORM_Proyectos.zip
+- ATLANTYDE_xAPI_Proyectos.zip
+- Archivo README.md
+
+Narrador:
+"Incluye dos paquetes completos: uno SCORM ideal para Moodle, Chamilo o Blackboard, y otro xAPI, perfecto para SCORM Cloud, Learning Locker o Moodle actualizado."
+
+---
+Escena 4: Cómo usar el SCORM (0:41 - 0:55)
+
+Captura limpia y clara de Moodle, mostrando paso a paso cómo añadir una actividad SCORM.
+
+Narrador:
+"Sube fácilmente el SCORM como actividad a tu plataforma educativa. Tus estudiantes aprenderán interactivamente y tú seguirás su progreso en tiempo real."
+
+---
+Escena 5: Cómo usar el xAPI (0:56 - 1:10)
+
+Captura clara y dinámica mostrando SCORM Cloud o dashboard de un Learning Record Store (LRS).
+
+Narrador:
+"Si buscas seguimiento avanzado, carga el paquete xAPI y vincúlalo con tu LRS favorito para registrar participación detallada, clics y mucho más."
+
+---
+Escena 6: Acceso + Contacto (1:11 - 1:20)
+
+Captura visual del archivo README abierto, con texto destacado claramente visible.
+
+Narrador:
+"Todo está explicado paso a paso en el README incluido. Y si necesitas asistencia, contáctanos directamente en innovation@stemdo.org."
+
+---
+Escena final: Cierre Inspirador (1:21 - 1:30)
+
+Frase animada en transición elegante:
+"ATLANTYDE – Educamos para que el futuro florezca"
+
+Música suave aumenta ligeramente al cierre, Logo ATLANTYDE para cierre visual corporativo.

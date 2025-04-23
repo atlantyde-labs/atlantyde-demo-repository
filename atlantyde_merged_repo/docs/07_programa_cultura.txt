@@ -1,0 +1,38 @@
+Programa de Cultura “Focus & Well‑Being”
+
+1. Alineamiento de liderazgo
+- Sponsorización Ejecutiva en town‑hall.
+- OKRs:
+  O: Mejorar foco y resiliencia mental.
+  KR1: 80% usan time‑boxing.
+  KR2: 100% micro‑mindfulness diario.
+  KR3: +15% satisfacción de bienestar.
+
+2. Diseño de procesos e infraestructura
+- Ceremonias Ágiles:
+  Daily Stand‑up (1 min respiración).
+  Sprint Review (Retrospectiva de Bienestar).
+- Single Source of Truth en Confluence/Odoo.
+- Dashboard en PowerBI/Grafana con métricas de bloques y mindfulness.
+
+3. Herramientas y automatizaciones
+- Tablero Kanban global (🚧/✅/📈).
+- Calendario:
+  - Bloque Deep Work 10:00-12:00 diario.
+  - Daily Stand‑up Mindful 09:00 diario.
+- Bot Slack/Teams:
+  - Mensajes cada hora: pausa activa.
+  - Slash-command /pomodoro start 25.
+
+4. Capacitación y embajadores
+- Workshops mensuales "Time‑Boxing & Mindfulness".
+- Focus Champions por departamento.
+
+5. Medición y mejora continua
+- Encuestas bimensuales (escala 1–5).
+- KPIs de adopción y score de bienestar.
+
+Próximos pasos:
+1. Kick‑off Ejecutivo la próxima semana.
+2. Configurar automations (Calendario + Slack).
+3. Publicar Manual Focus & Well‑Being.

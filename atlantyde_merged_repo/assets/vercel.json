@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "atlantyde-labs",
+  "public": true,
+  "builds": [
+    { "src": "site/index.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/site/$1" }
+  ]
+}

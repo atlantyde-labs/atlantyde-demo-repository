@@ -1,0 +1,51 @@
+Plan de empaquetado de assets y script FFmpeg
+
+Estructura de carpetas:
+video_atlantyde/
+├── slides/
+│   ├── 01_intro.png
+│   ├── 02_que_es_kit.png
+│   ├── 03_que_incluye.png
+│   ├── 04_como_usar_scorm.png
+│   ├── 05_como_usar_xapi.png
+│   ├── 06_contacto.png
+│   └── 07_cierre.png
+├── audio/
+│   ├── voiceover.mp3
+│   └── music.mp3
+└── ffmpeg/
+    └── make_video.sh
+
+Contenido de make_video.sh:
+#!/usr/bin/env bash
+cd "$(dirname "$0")"/..
+cat > ffmpeg/slides.txt <<EOF
+file 'slides/01_intro.png'
+duration 8
+file 'slides/02_que_es_kit.png'
+duration 16
+file 'slides/03_que_incluye.png'
+duration 14
+file 'slides/04_como_usar_scorm.png'
+duration 14
+file 'slides/05_como_usar_xapi.png'
+duration 14
+file 'slides/06_contacto.png'
+duration 9
+file 'slides/07_cierre.png'
+duration 9
+EOF
+
+ffmpeg -y -f concat -safe 0 -i ffmpeg/slides.txt \
+  -vf "scale=1080:1920,format=yuv420p" -r 30 \
+  ffmpeg/slides_video.mp4
+
+ffmpeg -y -i ffmpeg/slides_video.mp4 \
+  -i audio/voiceover.mp3 -i audio/music.mp3 \
+  -filter_complex \
+    "[1:a]adelay=0|0[a1]; [2:a]volume=0.2[a2]; [a1][a2]amix=inputs=2:duration=first:dropout_transition=2[aout]" \
+  -map 0:v -map "[aout]" \
+  -c:v libx264 -c:a aac -shortest \
+  output_atlantyde_video.mp4
+
+echo "✅ Vídeo generado: output_atlantyde_video.mp4"

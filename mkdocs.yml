@@ -1,0 +1,30 @@
+site_name: ATLANTYDE Labs
+repo_url: https://github.com/YourOrg/atlantyde-labs
+edit_uri: blob/main/
+
+nav:
+  - Home: index.md
+  - Manifesto:
+      - Introducción: manifests/overview.md
+      - Filosofía: manifests/philosophy.md
+      - Práctica: manifests/practice.md
+  - Guías:
+      - SDLC ATLANTYDE: SDLC_ATLANTYDE.md
+      - Pre-commit: PRE-COMMIT_SETUP.md
+      - APIs: docs/apis.md
+  - Autom. & DevOps:
+      - Workflows CI: .github/workflows/README.md
+      - Refactor Script: scripts/refactor.py
+      - Tech Radar: src/components/tech-radar.jsx
+  - Changelog: CHANGELOG.md
+  - Contacto: docs/contact.md
+
+plugins:
+  - search
+  - mkdocs-git-revision-date-localized-plugin
+
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'

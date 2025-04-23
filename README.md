@@ -1,8 +1,14 @@
-![Auto Assign](https://github.com/atlantyde-labs/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
 
-![Proof HTML](https://github.com/atlantyde-labs/demo-repository/actions/workflows/proof-html.yml/badge.svg)
 
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+## Contacto
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+- 📩 Correo corporativo root: **innovation@atlantyde.eu**
+
+## Fundadores de ATLANTYDE
+
+| Alias Épico | Nombre Formal         | Rol Estratégico                       |
+|-------------|------------------------|----------------------------------------|
+| **Kbza**    | **Jaime Silva**        | CEO, CIO, Creador del Manifiesto       |
+| **Culebra** | **Ángel Cumbreño**     | Facilitador Emocional y Finanzas       |
+| **Loky**    | **José Antonio López** | Director Creativo y Full Stack Dev     |
+| *(Futuros)* | **Iñigo Gortazar** / **Alba RS (Supernova)** | Legal Tech y Cultura Narrativa |

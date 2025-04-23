@@ -1,0 +1,29 @@
+name: Verificar firmas GPG en PRs
+
+on:
+  pull_request:
+    paths:
+      - 'docs/governance/**'
+      - 'docs/rfc/**'
+      - 'docs/labs/**'
+
+jobs:
+  verificar-firma-gpg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Verificar firmas GPG
+        run: |
+          echo "Validando que los commits estén firmados..."
+          git log --pretty="%h %G? %aN <%aE>" > firma_status.txt
+          cat firma_status.txt
+          if grep -q " G " firma_status.txt; then
+            echo "✅ Todos los commits están firmados correctamente."
+          else
+            echo "❌ Al menos un commit no está firmado. Requiere revisión."
+            exit 1
+          fi

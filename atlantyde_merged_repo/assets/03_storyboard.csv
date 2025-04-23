@@ -1,0 +1,8 @@
+Escena,Inicio,Fin,Durac_s,Texto Narrador,Visual Assets,Notas
+1 - Intro,0:00,0:08,8,"Tecnología humana para comunidades resilientes.","Logo ATLANTYDE animado, transición suave","Usar colores corporativos; animación suave"
+2 - ¿Qué es el kit?,0:09,0:25,16,"¿Tienes un campus virtual y quieres enseñar cómo gestionar proyectos éticos y colaborativos? Este kit SCORM y xAPI de ATLANTYDE es justo lo que necesitas.","Iconos SCORM, xAPI, Moodle y estudiantes en pantalla","Animar iconos con entradas dinámicas"
+3 - Qué incluye,0:26,0:40,14,"Incluye dos paquetes completos: uno SCORM ideal para Moodle, Chamilo o Blackboard, y otro xAPI perfecto para SCORM Cloud, Learning Locker o Moodle actualizado.","Capturas de los ZIPs y README","Mostrar archivos uno a uno con efecto de zoom"
+4 - Cómo usar el SCORM,0:41,0:55,14,"Sube fácilmente el SCORM como actividad a tu plataforma educativa. Tus estudiantes aprenderán interactivamente y tú seguirás su progreso en tiempo real.","Captura de Moodle mostrando subida de actividad SCORM","Resaltar botones y campos clave"
+5 - Cómo usar el xAPI,0:56,1:10,14,"Si buscas seguimiento avanzado, carga el paquete xAPI y vincúlalo con tu LRS favorito para registrar participación detallada, clics y mucho más.","Dashboard de SCORM Cloud o LRS","Mostrar gráficas de datos para enfatizar analítica"
+6 - Acceso + Contacto,1:11,1:20,9,"Todo está explicado paso a paso en el README incluido. Y si necesitas asistencia, contáctanos directamente en innovation@stemdo.org.","README abierto con texto destacado y correo visible","Animar subrayado en el correo"
+7 - Cierre Inspirador,1:21,1:30,9,"ATLANTYDE – Educamos para que el futuro florezca","Texto animado + logo de cierre","Música eleva ligeramente volumen"
