@@ -21,7 +21,10 @@ jobs:
       - name: Instalar jq
         run: sudo apt-get install jq
 
-      - name: Crear issues desde cada JSON detectado
+
+      - name: Crear etiquetas necesarias
+        run: bash scripts/create_labels.sh
+          - name: Crear issues desde cada JSON detectado
         run: |
           for f in .github/automation/issues/*.json; do
             title=$(jq -r '.title' "$f")

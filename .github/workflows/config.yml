@@ -1,0 +1,19 @@
+# Path: .github/config.yml
+# Autor: ATLANTYDE Founders Team
+# Última modificación: 2025-04-23
+
+blank_issues_enabled: false
+contact_links:
+  - name: Contacto General ATLANTYDE
+    url: mailto:innovation@atlantyde.eu
+    about: Contacta al equipo de coordinación institucional.
+
+issue_templates:
+  - name: LAB 0001 – Activación de Nauta Fundacional
+    description: Participa en la experiencia fundacional gamificada.
+    file: .github/ISSUE_TEMPLATE/lab0001.md
+
+pull_request_templates:
+  - name: LAB 0001 – Pull Request Fundacional
+    description: Envía tu primer PR gamificado como fundador ATLANTYDE.
+    file: .github/PULL_REQUEST_TEMPLATE/lab0001.md
