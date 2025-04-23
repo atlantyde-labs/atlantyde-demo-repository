@@ -9,12 +9,12 @@
     "lint": "eslint --ext .js,.jsx src/"
   },
   "dependencies": {
-    "react": "^18.0.0",
+    "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "recharts": "^2.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
+    "eslint": "^9.25.1",
     "react-scripts": "^5.0.0"
   },
   "engines": {
