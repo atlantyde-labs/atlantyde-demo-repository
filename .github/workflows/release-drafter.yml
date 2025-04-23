@@ -1,26 +1,43 @@
-# Path: .github/workflows/release-drafter.yml
+# Path: .github/release-drafter.yml
 # Autor: ATLANTYDE Founders Team
 # Última modificación: 2025-04-23
 
-name: "📦 Release Drafter"
+name-template: 'v$NEXT_PATCH_VERSION 🌊'
+tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: 🚀 Features
+    labels:
+      - "feature"
+      - "feat"
+  - title: 🐛 Fixes
+    labels:
+      - "fix"
+      - "bug"
+  - title: 🧪 Labs
+    labels:
+      - "lab"
+      - "gamification"
+  - title: 📝 Documentation
+    labels:
+      - "docs"
+      - "documentation"
+  - title: 🔧 Maintenance
+    labels:
+      - "chore"
+      - "refactor"
+      - "infra"
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    types: [closed]
-    branches:
-      - main
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+no-changes-template: '- No hay cambios para esta versión.'
 
-jobs:
-  update_release_draft:
-    if: github.event.pull_request.merged == true || github.event_name == 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Ejecutar Release Drafter
-        uses: release-drafter/release-drafter@v5
-        with:
-          config-name: release-drafter.yml
-        env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+template: |
+  ## 📦 Cambios en esta versión
+
+  $CHANGES
+
+  ## 📁 Detalles
+  - Versión generada automáticamente por Release Drafter y flujos SDLC ATLANTYDE.
+  - Activado desde rama `main` con PRs firmadas y etiquetadas.
+
+  🌊 Gracias por seguir navegando con nosotros.
+
