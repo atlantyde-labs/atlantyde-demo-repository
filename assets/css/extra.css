@@ -1,0 +1,43 @@
+
+/* extra.css */
+.md-header {
+    background-image: url('A_website_banner_for_Atlantyde_Diagram_Agent_featu.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220px;
+  }
+  
+  /* Contenedor principal: mejora contraste con glassmorphism */
+  .md-container {
+    background-color: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    padding: 1.2rem;
+    color: #111; /* Contraste asegurado */
+  }
+  
+  /* Fondo permanente con Poseidón */
+  body {
+    background: url('../images/poseidon-bg.png') no-repeat center center fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      background-attachment: scroll;
+      background-size: auto;
+    }
+  }
+  
+  .md-header__inner {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 2rem;
+  }
+  
+  .md-logo img {
+    height: 40px;
+  }
