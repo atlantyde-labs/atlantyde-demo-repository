@@ -1,3 +1,6 @@
+# .github/dependabot.yml
+# autor: Kabehz - Jaime Silva
+# ultima modificación: 2025-04-23
 # To get started with Dependabot version updates, you'll need to specify which
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
@@ -5,8 +8,30 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  # Node.js (npm)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+
+  # Python (raíz)
+  - package-ecosystem: "pip"
+    directory: "/"
     schedule:
       interval: "weekly"
-      
+    open-pull-requests-limit: 5
+
+  # Python para documentación (MkDocs)
+  - package-ecosystem: "pip"
+    directory: "/docs"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # Dockerfile (si aplica)
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 2
