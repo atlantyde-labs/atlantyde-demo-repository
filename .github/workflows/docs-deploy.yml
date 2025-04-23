@@ -1,0 +1,34 @@
+# Path: .github/workflows/lab_ficha_autogen.yml
+# Autor: ATLANTYDE Founders Team
+# Última modificación: 2025-04-23
+
+name: 🌐 ATLANTYDE Deploy MkDocs to GitHub Pages
+# Despliega la documentación de MkDocs a GitHub Pages
+# Este flujo de trabajo se activa en cada push a la rama principal o cuando se lanza manualmente.
+# Requiere permisos de escritura en el contenido para poder desplegar la documentación.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+  workflow_dispatch:  # Permite lanzarlo manualmente desde la pestaña Actions
+
+permissions:
+  contents: write  # 🔐 Requerido para mkdocs gh-deploy
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: 'Set up Python Cached by requeriments 🐍'
+        uses: ./.github/actions/setup-python-cached
+
+      - name: Deploy to GitHub Pages 🚀
+        run: |
+          mkdocs gh-deploy --force
