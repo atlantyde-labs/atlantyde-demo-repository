@@ -1,8 +1,16 @@
 # Placeholder del archivo mkdocs.yml generado dinámicamente.
 site_name: ATLANTYDE LMS
-site_url: https://atlantyde.github.io
-repo_url: https://github.com/atlantyde/ATLANTYDE_REPO_FINAL
+site_url: https://atlantyde-labs.github.io/atlantyde-demo-repository/
+repo_url: https://github.com/atlantyde-labs/atlantyde-demo-repository/
 repo_name: ATLANTYDE GitHub Repo
+
+site_author: @Kabehz
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+
+
+
 theme:
   name: material
   language: es
