@@ -36,13 +36,13 @@ theme:
 nav:
   - 🧭 Inicio: index.md
   - 🚀 Visión Estratégica:
-      - Overview: docs/manifests/overview.md
-      - Filosofía: docs/manifests/philosophy.md
-      - Práctica Institucional: docs/manifests/practice.md
+      - Overview: manifests/overview.md
+      - Filosofía: manifests/philosophy.md
+      - Práctica Institucional: manifests/practice.md
   - 🧑‍💼 Guías:
-      - Guía del Colaborador: docs/guias/contributor.md
+      - Guía del Colaborador: guias/contributor.md
   - 🛠️ SDLC Atlante:
-      - SDLC Documentado: docs/compliance/SDLC_ATLANTYDE.md
+      - SDLC Documentado: compliance/SDLC_ATLANTYDE.md
   - 🧪 Labs & Experiencias:
       - LAB 001: docs/labs/LAB0001_ONBOARDING.md
   - 🌐 Contacto: docs/contact.md
