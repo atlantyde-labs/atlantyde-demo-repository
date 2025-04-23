@@ -24,7 +24,7 @@ jobs:
 
       - name: Crear etiquetas necesarias
         run: bash scripts/create_labels.sh
-          - name: Crear issues desde cada JSON detectado
+      - name: Crear issues desde cada JSON detectado
         run: |
           for f in .github/automation/issues/*.json; do
             title=$(jq -r '.title' "$f")

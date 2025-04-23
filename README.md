@@ -1,4 +1,62 @@
 
+
+---
+
+## 🗺️ Navegación del sitio (MkDocs)
+
+La siguiente tabla representa la estructura activa del sitio `ATLANTYDE Foundation Docs`:
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Sección</th>
+      <th>Subsecciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🧭 Inicio</td>
+      <td><code>index.md</code></td>
+    </tr>
+    <tr>
+      <td>📚 Documentación</td>
+      <td>
+        <ul>
+          <li>Filosofía: <code>manifests/philosophy.md</code></li>
+          <li>Práctica: <code>manifests/practice.md</code></li>
+          <li>Guía del Colaborador: <code>Guia_Colaborador.md</code></li>
+          <li>Guía Visual Fundadores: <code>docs/guias/Guia_Visual_Founders.md</code></li>
+          <li>Guía de Branding: <code>docs/guias/Guia_Branding_Atlantyde.md</code></li>
+          <li>Panel de Badges: <code>docs/compliance/panel_badges.md</code></li>
+          <li>SDLC: <code>SDLC_ATLANTYDE.md</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>🔬 Laboratorios</td>
+      <td><code>labs/LAB_0001.md</code></td>
+    </tr>
+    <tr>
+      <td>📫 Contacto</td>
+      <td><code>docs/contact.md</code></td>
+    </tr>
+    <tr>
+      <td>⚙️ APIs</td>
+      <td><code>docs/apis.md</code></td>
+    </tr>
+    <tr>
+      <td>📦 Gestión de Paquetes</td>
+      <td><code>docs/package_management.md</code></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+<!-- 
 # ATLANTYDE Foundation
 
 **Repositorio fundacional, institucional, neuroeducativo y divulgativo** de la iniciativa ATLANTYDE, liderada por un colectivo visionario de fundadores que fusionan tecnología, ética, sostenibilidad y colaboración radical.
@@ -142,4 +200,4 @@ Este proyecto se publica bajo Licencia MIT con cláusulas extendidas para compli
 | **Kbza**    | **Jaime Silva**        | CEO, CIO, Creador del Manifiesto       |
 | **Culebra** | **Ángel Cumbreño**     | Facilitador Emocional y Finanzas       |
 | **Loky**    | **José Antonio López** | Director Creativo y Full Stack Dev     |
-| *(Futuros)* | **Iñigo Gortazar** / **Alba RS (Supernova)** | Legal Tech y Cultura Narrativa |
+| *(Futuros)* | **Iñigo Gortazar** / **Alba RS (Supernova)** | Legal Tech y Cultura Narrativa | -->
