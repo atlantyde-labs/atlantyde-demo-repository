@@ -1,3 +1,7 @@
+# .github/workflows/auto-assign.yml
+# autor: Kabehz - Jaime Silva
+# ultima modificación: 2025-04-23
+
 name: Auto Assign
 on:
   issues:

@@ -1,0 +1,48 @@
+
+site_name: ATLANTYDE Foundation Docs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.action.edit
+    - navigation.instant
+nav:
+  - 🧭 Inicio: index.md
+  - 📚 Documentación:
+      - Filosofía: manifests/philosophy.md
+      - Práctica: manifests/practice.md
+      - Guía del Colaborador: Guia_Colaborador.md
+      - Guía Visual Fundadores: docs/guias/Guia_Visual_Founders.md
+      - Guía de Branding: docs/guias/Guia_Branding_Atlantyde.md
+      - Panel de Badges: docs/compliance/panel_badges.md
+      - SDLC: SDLC_ATLANTYDE.md
+  - 🔬 Laboratorios:
+      - LAB 0001 – La Carta Atlante: labs/LAB_0001.md
+  - 📫 Contacto: docs/contact.md
+  - ⚙️ APIs: docs/apis.md
+  - 📦 Gestión de Paquetes: docs/package_management.md
+repo_url: https://github.com/atlantyde-labs/atlantyde-foundation
+edit_uri: ""
+
+
+# site_name: ATLANTYDE Foundation Docs
+# theme:
+#   name: material
+#   features:
+#     - navigation.tabs
+#     - content.action.edit
+#     - navigation.instant
+# nav:
+#   - 🧭 Inicio: index.md
+#   - 📚 Documentación:
+#       - Filosofía: manifests/philosophy.md
+#       - Práctica: manifests/practice.md
+#       - Guía del Colaborador: Guia_Colaborador.md
+#       - SDLC: SDLC_ATLANTYDE.md
+#   - 🔬 Laboratorios:
+#       - LAB 0001 – La Carta Atlante: labs/LAB_0001.md
+#   - 📫 Contacto: docs/contact.md
+#   - ⚙️ APIs: docs/apis.md
+#   - 📦 Gestión de Paquetes: docs/package_management.md
+# repo_url: https://github.com/atlantyde-labs/atlantyde-foundation
+# edit_uri: ""

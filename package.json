@@ -1,9 +1,23 @@
 {
-  "name": "demo-repo",
-  "version": "0.2.0",
-  "description": "A sample package.json",
-  "dependencies": {
-    "@primer/css": "17.0.1"
+  "name": "atlantyde-labs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint --ext .js,.jsx src/"
   },
-  "license": "MIT"
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "recharts": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "react-scripts": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }

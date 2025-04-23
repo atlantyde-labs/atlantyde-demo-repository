@@ -1,0 +1,38 @@
+# Path: .github/workflows/create-issues-from-json.yml
+# Autor: ATLANTYDE Founders Team
+# Última modificación: 2025-04-23
+
+name: "📬 Automatizar creación de issues desde JSON"
+
+on:
+  push:
+    paths:
+      - ".github/automation/issues/*.json"
+
+jobs:
+  create_issues:
+    name: Crear Issues desde JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar jq
+        run: sudo apt-get install jq
+
+
+      - name: Crear etiquetas necesarias
+        run: bash scripts/create_labels.sh
+      - name: Crear issues desde cada JSON detectado
+        run: |
+          for f in .github/automation/issues/*.json; do
+            title=$(jq -r '.title' "$f")
+            body=$(jq -r '.body' "$f")
+            labels=$(jq -r '.labels | join(",")' "$f")
+            assignees=$(jq -r '.assignees | join(",")' "$f")
+
+            gh issue create               --title "$title"               --body "$body"               --label "$labels"               --assignee "$assignees"
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,13 @@
+{
+  "title": "[FICHA] Activaci\u00f3n fundador Loky \u00b7 Jos\u00e9 Antonio",
+  "body": "### \ud83c\udf93 Activaci\u00f3n de contribuidor clave en ATLANTYDE\n\n- Alias: **Loky**\n- Nombre: Jos\u00e9 Antonio L\u00f3pez\n- Rol: Fullstack \u00b7 DevSecOps \u00b7 Creativo Visual\n- \ud83c\udfa8 [Ficha visual y educativa](docs/fichas/LOKY_FICHA.md)\n\n**Tareas sugeridas:**\n- [ ] Validar avatar visual (300x300, transparente)\n- [ ] Iniciar propuestas en `docs/guias/Guia_Visual_Founders.md`\n- [ ] Establecer l\u00ednea gr\u00e1fica para LABS y fichas educativas",
+  "labels": [
+    "fundador",
+    "visual",
+    "backlog",
+    "activaci\u00f3n"
+  ],
+  "assignees": [
+    "loky"
+  ]
+}

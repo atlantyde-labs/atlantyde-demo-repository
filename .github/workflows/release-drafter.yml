@@ -1,0 +1,28 @@
+# Path: .github/workflows/release-drafter.yml
+# Autor: ATLANTYDE Founders Team
+# Última actualización: 2025-04-23
+
+name: 🧾 Generar Borrador de Release
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, edited, reopened, closed]
+    branches:
+      - main
+
+jobs:
+  update_release_draft:
+    name: 📦 Actualizar Release Draft
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 🔄 Ejecutar Release Drafter
+        uses: release-drafter/release-drafter@v5
+        with:
+          config-name: release-drafter.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

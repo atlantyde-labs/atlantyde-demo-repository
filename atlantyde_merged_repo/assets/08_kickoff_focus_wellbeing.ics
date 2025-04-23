@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+PRODID:-//ATLANTYDE//Kick‑off Focus & Well‑Being//ES
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Madrid:20250424T090000
+DTEND;TZID=Europe/Madrid:20250424T100000
+SUMMARY:Kick‑off Programa Focus & Well‑Being
+DESCRIPTION:Reunión de lanzamiento del programa Focus & Well‑Being.\nÚnete en Meet: https://meet.google.com/xyz‑abcd‑efg
+LOCATION:https://meet.google.com/xyz‑abcd‑efg
+END:VEVENT
+END:VCALENDAR

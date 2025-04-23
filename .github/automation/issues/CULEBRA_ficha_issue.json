@@ -1,0 +1,13 @@
+{
+  "title": "[FICHA] Activaci\u00f3n fundador Culebra \u00b7 \u00c1ngel Cumbre\u00f1o",
+  "body": "### \ud83c\udf93 Activaci\u00f3n del rol beta tester / stakeholder educativo\n\n- Alias: **Culebra**\n- Nombre: \u00c1ngel Cumbre\u00f1o\n- Rol: Stakeholder \u00b7 Beta Tester \u00b7 Facilitador Emocional\n- \ud83d\udcdd [Ficha de participaci\u00f3n](docs/fichas/CULEBRA_FICHA.md)\n\n**Tareas sugeridas (Asignado a Loky para soporte):**\n- [ ] Confirmar onboarding con LAB0001\n- [ ] Integrar en canal de testeo educativo (Teams/GitHub)\n- [ ] Recoger feedback emocional y cognitivo",
+  "labels": [
+    "stakeholder",
+    "educacion",
+    "backlog",
+    "activaci\u00f3n"
+  ],
+  "assignees": [
+    "loky"
+  ]
+}
