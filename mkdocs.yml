@@ -40,9 +40,13 @@ nav:
       - Filosofía: manifests/philosophy.md
       - Práctica Institucional: manifests/practice.md
   - 🧑‍💼 Guías:
-      - Guía del Colaborador: guias/contributor.md
-  - 🛠️ SDLC Atlante:
-      - SDLC Documentado: compliance/SDLC_ATLANTYDE.md
+      - Colaborador: guias/contributor.md
+      - Branding: guias/branding.md
+      - Founder: guias/contributor.md
+  - 🛠️ Compliance:
+      - Service Status: compliance/onepager-servicios.md
+      - Panel Badges: compliance/panel-badges.md 
+      - SDLC Atlante: compliance/sdlc-atlantyde.md
   - 🧪 Labs & Experiencias:
       - LAB 001: docs/labs/LAB0001_ONBOARDING.md
   - 🌐 Contacto: docs/contact.md
