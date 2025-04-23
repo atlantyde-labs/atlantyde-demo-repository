@@ -1,5 +1,4 @@
-# Validación y limpieza del archivo requirements.txt actual
-
+python-markdown
 # Documentación & Requisitos
 mkdocs==1.6.1   #==1.5.3
 mkdocs-material==9.6.11
@@ -10,6 +9,7 @@ mkdocs-include-markdown-plugin==7.1.5
 mkdocs-redirects==1.2.1
 pymdown-extensions==10.5
 Markdown>=3.4,<4.0
+
 pyyaml==6.0.1
 
 # Reporting & Análisis estático 
