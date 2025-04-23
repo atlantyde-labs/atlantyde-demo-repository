@@ -36,36 +36,16 @@ theme:
 nav:
   - 🧭 Inicio: index.md
   - 🚀 Visión Estratégica:
-      - Overview: docs/manifest/overview.md
-      - Filosofia: docs/manifest/philosophy.md
-  - 🧑‍💼 Guias:
-      - Colaborador: docs/guias/contributor.md
-      - Visual Branding: docs/guias/branding.md
-      - Visual Founders: docs/guias/founders.md
-      # - Creativo (Loky): docs/onboarding/loky_creativo.md
-      # - Beta Tester (Culebra): docs/onboarding/angel_beta.md
-      # - Completo Fundadores: docs/onboarding/onboarding_completo.md
-  # - 📂 Repositorios:
-  #     - README General: README_FINAL_ATLANTYDE.md
-  #     - Archivos Labs: docs/labs/index.md
-  # - 🔐 Identidad y Seguridad:
-  #     - Firma GPG: docs/security/firma_gpg.md
-  #     - Roles y pseudónimos: docs/security/identidades_atlante.md
-  
+      - Overview: docs/manifests/overview.md
+      - Filosofía: docs/manifests/philosophy.md
+      - Práctica Institucional: docs/manifests/practice.md
+  - 🧑‍💼 Guías:
+      - Guía del Colaborador: docs/guias/contributor.md
   - 🛠️ SDLC Atlante:
-      - Manifiesto: docs/compliance/SDLC_ATLANTYDE.md
-      # - Markdown First: docs/dev/markdown-first.md
-      # - GitHub Actions: docs/dev/github-actions.md
-      # - Deploy: docs/dev/deploy_github_pages.md
-  # - 🎨 Branding & Multimedia:
-  #     - Avatares Épicos IA: docs/creativo/avatares.md
-  #     - Estilo Visual ATLANTYDE: docs/creativo/estilo.md
+      - SDLC Documentado: docs/compliance/SDLC_ATLANTYDE.md
   - 🧪 Labs & Experiencias:
-      - LAB-001: docs/labs/LAB0001_ONBOARDING.md
-      # - LAB-002: docs/labs/lab_011.md
-  #- 📜 Licencia: docs/legal/licencia.md
-  - 🌐 Contacto: docs/about/contact.md
-  - 🔐 Seguridad: SECURUTY.md
+      - LAB 001: docs/labs/LAB0001_ONBOARDING.md
+  - 🌐 Contacto: docs/contact.md
 
 plugins:
   - search
