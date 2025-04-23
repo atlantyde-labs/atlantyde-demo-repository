@@ -1,0 +1,50 @@
+Plan práctico para generar tu video en Canva
+
+Paso 1: Prepara los materiales
+- Logotipo animado (Canva ofrece animaciones rápidas si no tienes el logo animado).
+- Capturas de pantalla (Moodle, SCORM Cloud, archivos ZIP y README).
+- Iconos representativos (SCORM, xAPI, Moodle).
+- Audio:
+  - Voz en off (grabada en Canva o sube desde Audacity/Adobe Podcast).
+  - Música suave corporativa (disponible en la biblioteca de Canva o Pixabay).
+
+Paso 2: Crear el proyecto en Canva
+- Entra a https://www.canva.com
+- Selecciona "Video móvil" (1080×1920 px) o "Video para TikTok".
+
+Paso 3: Arma las escenas usando el guión
+- Escena 1 (Intro):
+  - Añade logo ATLANTYDE animado.
+  - Inserta texto lema.
+- Escena 2 (¿Qué es el kit?):
+  - Iconos SCORM, xAPI, Moodle.
+  - Texto descriptivo.
+- Escena 3 (Qué incluye):
+  - Imágenes de los ZIP y README.
+- Escena 4 (SCORM):
+  - Captura de Moodle.
+  - Texto en bullet points.
+- Escena 5 (xAPI):
+  - Captura de dashboard LRS.
+  - Texto breve.
+- Escena 6 (Contacto):
+  - Captura del README abierto.
+  - Texto de correo.
+- Escena Final (Cierre):
+  - Texto inspirador animado.
+
+Paso 4: Añadir Voz en Off
+- Graba directamente en Canva o sube el archivo.
+- Lee el guión con tono cálido.
+
+Paso 5: Añadir Música
+- Usa la biblioteca de Canva con búsqueda "soft background", "corporate".
+- Ajusta volumen para destacar voz.
+
+Paso 6: Ajustar el Timing
+- Duración 7–15 s por diapositiva.
+- Total máximo de 90 s.
+
+Paso 7: Exportar y Publicar
+- Exporta como MP4.
+- Publica en YouTube Shorts, Instagram Reels o tu LMS.

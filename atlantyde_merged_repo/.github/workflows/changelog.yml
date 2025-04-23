@@ -1,0 +1,40 @@
+name: "Control Automatizado de CHANGELOG"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  generate-changelog:
+    name: Generar y actualizar CHANGELOG.md
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Necesario para generar historial completo
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Instalar auto-changelog
+        run: npm install -g auto-changelog
+
+      - name: Generar CHANGELOG.md
+        run: |
+          auto-changelog -p --template keepachangelog --output CHANGELOG.md
+
+      - name: Commit y push de actualizaciones
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: actualizar CHANGELOG.md"
+          branch: main
+          push: true

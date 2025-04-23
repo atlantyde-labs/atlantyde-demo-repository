@@ -1,0 +1,38 @@
+name: "CI Refactor ATLANTYDE"
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  refactor-atlantyde:
+    name: Refactorización ATLANTYDE
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+
+      - name: Ejecutar script de refactorización
+        run: python refactor_atlantyde.py
+
+      - name: Commit y push de cambios
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: aplicar refactorización ATLANTYDE"
+          branch: main
+          push: true

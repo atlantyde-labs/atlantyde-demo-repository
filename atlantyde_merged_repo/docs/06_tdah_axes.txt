@@ -1,0 +1,21 @@
+Gestionar el TDAH en un entorno de alta responsabilidad como el tuyo:
+
+Eje 1: Estructura y rutinas (Governance de tu día a día)
+- Time‑boxing y bloques de enfoque (25–50 min + descansos 5–10 min).
+- Daily Stand‑up personales: 5 min cada mañana para repasar OKR personales.
+- Rituales de cierre: "Sprint Retrospective" breve al final del día.
+
+Eje 2: Herramientas y dashboards (Single Source of Truth)
+- Kanban digital (Trello/Notion/Jira) con WIP limitado.
+- Automatización de recordatorios via calendario.
+- Widgets de Pomodoro en escritorio/móvil.
+
+Eje 3: Gestión de distracciones (Mitigación de riesgos de productividad)
+- Zona de Deep Work (sin notificaciones).
+- Temporizadores visuales.
+- Tablero de "Distracciones permitidas".
+
+Eje 4: Hábitos de bienestar (People Ops de tu propia salud)
+- Micro‑mindfulness (pausas activas de 2 min).
+- Actividad física programada (3x20 min semanal).
+- Nutrición y sueño regular.

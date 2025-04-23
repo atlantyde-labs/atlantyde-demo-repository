@@ -1,0 +1,42 @@
+Title,Assignee,Labels,State,Body
+"🎨 Loky: Activa tu ADN Creativo en ATLANTYDE – Branding, Avatares y Sonido IA",JoseAntonio,"creativo,branding,audiovisual,IA",open,"Hola Loky,
+
+¡Es hora de que tu vena artística, humorística y futurista lidere el primer reto de identidad visual sonora de ATLANTYDE! Este desafío consiste en:
+
+🎬 Objetivo:
+Crear la primera versión prototipo del universo visual de ATLANTYDE, basada en:
+- Avatares IA inspirados en los fundadores.
+- Un jingle de 8–15 segundos hecho con IA musical.
+- Iconografía inicial (SVG o PNG).
+- Un pitch audiovisual de 30 segundos con voz sintética de un avatar.
+
+🛠️ Recursos sugeridos:
+- Canva, Figma, Midjourney, D-ID, Suno, Leonardo, ElevenLabs...
+
+📦 Entregable:
+Carpeta `/media/creative/loky-set-v1` con:
+- avatars/, music/, pitch/, icons/
+- README.md describiendo proceso y herramientas usadas
+
+🚀 Valor:
+Será referente del branding emocional y servirá para atraer talento, sponsors y crear campañas futuras.
+"
+🔍 Ángel: Primer Test Emocional – Experiencia Onboarding & Labs de ATLANTYDE,Angel,"onboarding,beta,emocional,testing",open,"Hola Ángel,
+
+Tú serás el primer humano beta oficial del universo ATLANTYDE. Tu rol clave es testar, opinar y mejorar el flujo de incorporación y labs desde tu mirada sensible y honesta.
+
+📚 Tu reto:
+- Seguir el onboarding (`README_onboarding_angel_jose.md`)
+- Realizar Labs 001 a 003
+- Evaluar tu experiencia (enganche, bloqueos, emociones)
+- Grabar una nota de voz reflexiva por lab
+- Proponer mejoras de experiencia y sugerencias lúdicas
+
+📝 Entregable:
+- feedback_angel.md en /docs/people/angel/
+- Audios en /media/voice/angel/
+- Mejora del onboarding
+
+🎁 Bonus:
+Si completas antes del viernes, ¡recibirás tu avatar IA emocional creado por Loky!
+"
