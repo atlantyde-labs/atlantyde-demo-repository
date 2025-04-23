@@ -1,31 +1,16 @@
-# Placeholder del archivo mkdocs.yml generado dinámicamente.
 site_name: ATLANTYDE LMS
 site_url: https://atlantyde-labs.github.io/atlantyde-demo-repository/
 repo_url: https://github.com/atlantyde-labs/atlantyde-demo-repository/
-repo_name: ATLANTYDE GitHub Repo
-
 site_author: Jaime Silva
 edit_uri: edit/main/docs/
 docs_dir: docs
 site_dir: site
 
-
-
 theme:
   name: material
   language: es
-  features:
-    - navigation.expand
-    - navigation.instant
-    - toc.integrate
-    - search.highlight
-    - content.code.annotate
-    - content.code.copy
-    - content.tabs.link
-    - header.autohide
-    - search.share
-  logo: assets/images/logo-atlantyde.svg
   favicon: assets/images/logo-atlantyde.svg
+  logo: assets/images/logo-atlantyde.svg
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -37,34 +22,50 @@ theme:
       scheme: slate
       primary: cyan
       accent: teal
+  features:
+    - navigation.expand
+    - navigation.instant
+    - toc.integrate
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - search.share
 
 nav:
   - 🧭 Inicio: index.md
   - 🚀 Visión Estratégica:
-      - Memoria Estratégica: docs/memoria/Memoria_Estrategica_ATLANTYDE.md
-      - Manifiesto Fundacional: docs/governance/founders_manifesto.md
-  - 🧑‍💼 Onboarding:
-      - Creativo (Loky): docs/onboarding/loky_creativo.md
-      - Beta Tester (Culebra): docs/onboarding/angel_beta.md
-      - Completo Fundadores: docs/onboarding/onboarding_completo.md
-  - 📂 Repositorios:
-      - README General: README_FINAL_ATLANTYDE.md
-      - Archivos Labs: docs/labs/index.md
-  - 🔐 Identidad y Seguridad:
-      - Firma GPG: docs/security/firma_gpg.md
-      - Roles y pseudónimos: docs/security/identidades_atlante.md
+      - Overview: docs/manifest/overview.md
+      - Filosofia: docs/manifest/philosophy.md
+  - 🧑‍💼 Guias:
+      - Colaborador: docs/guias/contributor.md
+      - Visual Branding: docs/guias/branding.md
+      - Visual Founders: docs/guias/founders.md
+      # - Creativo (Loky): docs/onboarding/loky_creativo.md
+      # - Beta Tester (Culebra): docs/onboarding/angel_beta.md
+      # - Completo Fundadores: docs/onboarding/onboarding_completo.md
+  # - 📂 Repositorios:
+  #     - README General: README_FINAL_ATLANTYDE.md
+  #     - Archivos Labs: docs/labs/index.md
+  # - 🔐 Identidad y Seguridad:
+  #     - Firma GPG: docs/security/firma_gpg.md
+  #     - Roles y pseudónimos: docs/security/identidades_atlante.md
+  
   - 🛠️ SDLC Atlante:
-      - Markdown First: docs/dev/markdown-first.md
-      - GitHub Actions: docs/dev/github-actions.md
-      - Deploy: docs/dev/deploy_github_pages.md
-  - 🎨 Branding & Multimedia:
-      - Avatares Épicos IA: docs/creativo/avatares.md
-      - Estilo Visual ATLANTYDE: docs/creativo/estilo.md
+      - Manifiesto: docs/compliance/SDLC_ATLANTYDE.md
+      # - Markdown First: docs/dev/markdown-first.md
+      # - GitHub Actions: docs/dev/github-actions.md
+      # - Deploy: docs/dev/deploy_github_pages.md
+  # - 🎨 Branding & Multimedia:
+  #     - Avatares Épicos IA: docs/creativo/avatares.md
+  #     - Estilo Visual ATLANTYDE: docs/creativo/estilo.md
   - 🧪 Labs & Experiencias:
-      - LAB-010: docs/labs/lab_010.md
-      - LAB-011: docs/labs/lab_011.md
-  - 📜 Licencia: docs/legal/licencia.md
-  - 🌐 Contacto: docs/about/contacto.md
+      - LAB-001: docs/labs/LAB0001_ONBOARDING.md
+      # - LAB-002: docs/labs/lab_011.md
+  #- 📜 Licencia: docs/legal/licencia.md
+  - 🌐 Contacto: docs/about/contact.md
+  - 🔐 Seguridad: SECURUTY.md
 
 plugins:
   - search
@@ -81,7 +82,7 @@ markdown_extensions:
   - admonition
   - footnotes
   - toc:
-      permalink: true
+      permalink: ⚓
   - codehilite:
       guess_lang: false
   - pymdownx.superfences
@@ -92,8 +93,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.highlight:
@@ -110,7 +111,6 @@ extra_css:
   - assets/css/custom.css
   - assets/css/extra.css
   - assets/styles/custom.css
-
 
 extra_javascript:
   - assets/js/custom.js
