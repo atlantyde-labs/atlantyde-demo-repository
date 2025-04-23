@@ -1,3 +1,3 @@
 # APIs
 
-Documentación de APIs por implementar.
+Documentación de APIs públicas de ATLANTYDE.
