@@ -1,0 +1,37 @@
+# Path: .github/workflows/lab_ficha_autogen.yml
+# Autor: ATLANTYDE Founders Team
+# Última modificación: 2025-04-23
+
+name: "Auto-Generador de Fichas de LABS"
+
+on:
+  push:
+    paths:
+      - "labs/LAB*.md"
+    branches:
+      - main
+      - feature/**
+
+jobs:
+  generate-lab-ficha:
+    name: Generar Ficha de LAB
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Ejecutar generador de fichas
+        run: |
+          pip install -r requirements.txt || true
+          python scripts/generate_lab_ficha.py
+
+      - name: Commit de ficha generada
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: generar ficha LMS automáticamente para nuevo LAB"
+          branch: ${ github.ref_name }
