@@ -2,7 +2,7 @@
 # autor: Kabehz - Jaime Silva
 # ultima modificación: 2025-04-23
 
-name: "CodeQL análisis de seguridad"
+name: "🔍 ATLANTYDE QA/UAT Suite CodeQL"
 
 on:
   push:

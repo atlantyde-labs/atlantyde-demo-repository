@@ -2,7 +2,7 @@
 # Autor: ATLANTYDE Founders Team
 # Última modificación: 2025-04-23
 
-name: "Auto-Generador de Fichas de LABS"
+name: " Auto-Generador de Fichas de LABS"
 
 on:
   push:
