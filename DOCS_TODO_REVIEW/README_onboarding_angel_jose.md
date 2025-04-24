@@ -45,7 +45,7 @@ Consulta `/docs/como-generar-tu-clave-gpg.md` y añade tu firma a `/people/`.
 
 ## 💬 5. ¿Y si tengo dudas?
 
-Pregunta a Kbza (Jaime) por Telegram, WhatsApp o directamente desde GitHub.
+Pregunta a Kbza (Jaime) directamente desde GitHub.
 
 ---
 

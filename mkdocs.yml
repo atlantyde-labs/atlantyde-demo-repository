@@ -1,4 +1,4 @@
-site_name: ATLANTYDE LMS
+site_name: ATLANTYDE Innovation SocialTech
 site_url: https://atlantyde-labs.github.io/atlantyde-demo-repository/
 repo_url: https://github.com/atlantyde-labs/atlantyde-demo-repository/
 site_author: Jaime Silva
@@ -48,8 +48,8 @@ nav:
       - Panel Badges: compliance/panel-badges.md 
       - SDLC Atlante: compliance/sdlc-atlantyde.md
   - 🧪 Labs & Experiencias:
-      - LAB 001: docs/labs/LAB0001_ONBOARDING.md
-  - 🌐 Contacto: docs/contact.md
+      - LAB 001: docs/labs/LAB_0001.md
+  - 🌐 Contacto: docs/about/contact.md
 
 plugins:
   - search
