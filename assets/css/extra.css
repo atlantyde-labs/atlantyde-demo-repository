@@ -41,3 +41,26 @@
   .md-logo img {
     height: 40px;
   }
+
+  /* Estilo personalizado para resaltar secciones clave */
+.highlight-section {
+  background-color: #f9f9f9;
+  border-left: 4px solid #0057b8;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
+/* Encabezados más estilizados */
+h1, h2, h3 {
+  color: #003366;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Pie de página personalizado */
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 4em;
+}
