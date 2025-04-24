@@ -1,7 +1,6 @@
 # Path: .github/workflows/lab_ficha_autogen.yml
 # Autor: ATLANTYDE Founders Team
 # Última modificación: 2025-04-24
-
 name: "Auto-Generador de Fichas de LABS"
 
 permissions:
