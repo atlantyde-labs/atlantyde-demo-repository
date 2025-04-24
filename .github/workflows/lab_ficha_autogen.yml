@@ -4,6 +4,9 @@
 
 name: "Auto-Generador de Fichas de LABS"
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
