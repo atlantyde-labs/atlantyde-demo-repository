@@ -12,12 +12,12 @@ Markdown>=3.4,<4.0
 pyyaml==6.0.1
 
 # Reporting & Análisis estático 
-pandas==2.2.1
+pandas==2.2.3
 matplotlib==3.9.4
 jinja2==3.1.6
 
 # QA/UAT & Crawling web
 playwright==1.43.0
 beautifulsoup4==4.12.3
-markdownify==0.11.6
+markdownify==1.1.0
 requests==2.32.3
